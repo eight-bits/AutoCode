@@ -20,7 +20,7 @@ class BYSearchViewController: UIViewController {
         
         for i in 0..<modBy.itemBY.count {
             let item = modBy.itemBY[i]
-            if (item.codeRegion.hasPrefix(textSearch!)) || (item.nameRegion.lowercased().contains(textSearch!)) {
+            if (item.codeRegion.hasPrefix(textSearch!)) || (item.codeRegion.hasSuffix(textSearch!)) || (item.nameRegion.lowercased().contains(textSearch!)) {
                 labelRegionByOutlet.text = item.nameRegion
                 labelCodeByOutlet.text = item.codeRegion
                 if !flagSearch {

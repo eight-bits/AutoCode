@@ -24,7 +24,7 @@ class KzSearchViewController: UIViewController {
         
         for i in 0..<modKz.itemKz.count {
             let item = modKz.itemKz[i]
-            if (item.codeRegion.hasPrefix(textSearch!)) || (item.nameRegion.lowercased().contains(textSearch!)) {
+            if (item.codeRegion.hasPrefix(textSearch!)) || (item.codeRegion.hasSuffix(textSearch!)) || (item.nameRegion.lowercased().contains(textSearch!)) {
                 labelRegionKzOutlet.text = item.nameRegion
                 labelCodeKzOutlet.text = item.codeRegion
                 if !flagSearch {
