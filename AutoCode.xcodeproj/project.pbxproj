@@ -7,15 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55447CC2255AA72C00576E51 /* BYTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55447CC1255AA72C00576E51 /* BYTabBarViewController.swift */; };
+		55447CC6255AA86E00576E51 /* BYListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55447CC5255AA86E00576E51 /* BYListViewController.swift */; };
+		55447CC9255AA8BC00576E51 /* BYSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55447CC8255AA8BC00576E51 /* BYSearchViewController.swift */; };
+		5551B066255BBFB70023C5BC /* InfoKzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551B065255BBFB70023C5BC /* InfoKzViewController.swift */; };
+		556035DF255A561C00807029 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556035DE255A561C00807029 /* AboutViewController.swift */; };
+		556035E3255A56FA00807029 /* 180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 556035E2255A56FA00807029 /* 180x180.png */; };
+		5575EC1625599B43005AA76F /* InfoRuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575EC1525599B43005AA76F /* InfoRuViewController.swift */; };
+		558B1FCF255B045B00AE6305 /* kazakhstan.png in Resources */ = {isa = PBXBuildFile; fileRef = 558B1FCE255B045B00AE6305 /* kazakhstan.png */; };
+		558B1FD5255B09D600AE6305 /* TabBarKzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B1FD4255B09D600AE6305 /* TabBarKzViewController.swift */; };
+		558B1FD8255B0A4700AE6305 /* KzListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B1FD7255B0A4700AE6305 /* KzListViewController.swift */; };
+		558B1FDC255B0A9500AE6305 /* KzSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B1FDB255B0A9500AE6305 /* KzSearchViewController.swift */; };
 		55CD5BFF25596EF100D9F032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD5BFE25596EF100D9F032 /* AppDelegate.swift */; };
 		55CD5C0125596EF100D9F032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD5C0025596EF100D9F032 /* SceneDelegate.swift */; };
 		55CD5C0325596EF100D9F032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD5C0225596EF100D9F032 /* ViewController.swift */; };
 		55CD5C0625596EF100D9F032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD5C0425596EF100D9F032 /* Main.storyboard */; };
 		55CD5C0825596EF200D9F032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CD5C0725596EF200D9F032 /* Assets.xcassets */; };
 		55CD5C0B25596EF200D9F032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD5C0925596EF200D9F032 /* LaunchScreen.storyboard */; };
+		55CD5C182559735700D9F032 /* belarus.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CD5C152559735700D9F032 /* belarus.png */; };
+		55CD5C192559735700D9F032 /* russia.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CD5C162559735700D9F032 /* russia.png */; };
+		55CD5C1C2559771C00D9F032 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD5C1B2559771C00D9F032 /* TabBarViewController.swift */; };
+		55CD5C1F2559777A00D9F032 /* RuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD5C1E2559777A00D9F032 /* RuListViewController.swift */; };
+		55CD5C22255977C200D9F032 /* RuSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD5C21255977C200D9F032 /* RuSearchViewController.swift */; };
+		55CD5C2625598FE700D9F032 /* classAutoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD5C2525598FE700D9F032 /* classAutoCode.swift */; };
+		55CD5C292559914700D9F032 /* modelAutoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD5C282559914700D9F032 /* modelAutoCode.swift */; };
+		55E92F4D255C630700A47368 /* RateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E92F4C255C630700A47368 /* RateManager.swift */; };
+		55FA54D0255ABB0E00FD3D5F /* InfoByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA54CF255ABB0E00FD3D5F /* InfoByViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55447CC1255AA72C00576E51 /* BYTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYTabBarViewController.swift; sourceTree = "<group>"; };
+		55447CC5255AA86E00576E51 /* BYListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYListViewController.swift; sourceTree = "<group>"; };
+		55447CC8255AA8BC00576E51 /* BYSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYSearchViewController.swift; sourceTree = "<group>"; };
+		5551B065255BBFB70023C5BC /* InfoKzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoKzViewController.swift; sourceTree = "<group>"; };
+		556035DE255A561C00807029 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		556035E2255A56FA00807029 /* 180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180x180.png; sourceTree = "<group>"; };
+		5575EC1525599B43005AA76F /* InfoRuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRuViewController.swift; sourceTree = "<group>"; };
+		558B1FCE255B045B00AE6305 /* kazakhstan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kazakhstan.png; sourceTree = "<group>"; };
+		558B1FD4255B09D600AE6305 /* TabBarKzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarKzViewController.swift; sourceTree = "<group>"; };
+		558B1FD7255B0A4700AE6305 /* KzListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KzListViewController.swift; sourceTree = "<group>"; };
+		558B1FDB255B0A9500AE6305 /* KzSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KzSearchViewController.swift; sourceTree = "<group>"; };
 		55CD5BFB25596EF100D9F032 /* AutoCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CD5BFE25596EF100D9F032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CD5C0025596EF100D9F032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +55,15 @@
 		55CD5C0725596EF200D9F032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55CD5C0A25596EF200D9F032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55CD5C0C25596EF200D9F032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CD5C152559735700D9F032 /* belarus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = belarus.png; sourceTree = "<group>"; };
+		55CD5C162559735700D9F032 /* russia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = russia.png; sourceTree = "<group>"; };
+		55CD5C1B2559771C00D9F032 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		55CD5C1E2559777A00D9F032 /* RuListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuListViewController.swift; sourceTree = "<group>"; };
+		55CD5C21255977C200D9F032 /* RuSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuSearchViewController.swift; sourceTree = "<group>"; };
+		55CD5C2525598FE700D9F032 /* classAutoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classAutoCode.swift; sourceTree = "<group>"; };
+		55CD5C282559914700D9F032 /* modelAutoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelAutoCode.swift; sourceTree = "<group>"; };
+		55E92F4C255C630700A47368 /* RateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateManager.swift; sourceTree = "<group>"; };
+		55FA54CF255ABB0E00FD3D5F /* InfoByViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoByViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +77,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5513ECE52559AFA100A70EEB /* ViewControllerRu */ = {
+			isa = PBXGroup;
+			children = (
+				5575EC1525599B43005AA76F /* InfoRuViewController.swift */,
+				55CD5C21255977C200D9F032 /* RuSearchViewController.swift */,
+				55CD5C1E2559777A00D9F032 /* RuListViewController.swift */,
+				55CD5C1B2559771C00D9F032 /* TabBarViewController.swift */,
+			);
+			path = ViewControllerRu;
+			sourceTree = "<group>";
+		};
+		55447CBF255AA56300576E51 /* ViewControllerBY */ = {
+			isa = PBXGroup;
+			children = (
+				55447CC1255AA72C00576E51 /* BYTabBarViewController.swift */,
+				55447CC5255AA86E00576E51 /* BYListViewController.swift */,
+				55447CC8255AA8BC00576E51 /* BYSearchViewController.swift */,
+				55FA54CF255ABB0E00FD3D5F /* InfoByViewController.swift */,
+			);
+			path = ViewControllerBY;
+			sourceTree = "<group>";
+		};
+		556035E1255A56B500807029 /* imageAbout */ = {
+			isa = PBXGroup;
+			children = (
+				556035E2255A56FA00807029 /* 180x180.png */,
+			);
+			path = imageAbout;
+			sourceTree = "<group>";
+		};
+		558B1FD2255B090500AE6305 /* ViewControllerKz */ = {
+			isa = PBXGroup;
+			children = (
+				558B1FD4255B09D600AE6305 /* TabBarKzViewController.swift */,
+				558B1FD7255B0A4700AE6305 /* KzListViewController.swift */,
+				558B1FDB255B0A9500AE6305 /* KzSearchViewController.swift */,
+				5551B065255BBFB70023C5BC /* InfoKzViewController.swift */,
+			);
+			path = ViewControllerKz;
+			sourceTree = "<group>";
+		};
 		55CD5BF225596EF000D9F032 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +137,42 @@
 		55CD5BFD25596EF100D9F032 /* AutoCode */ = {
 			isa = PBXGroup;
 			children = (
+				558B1FD2255B090500AE6305 /* ViewControllerKz */,
+				556035E1255A56B500807029 /* imageAbout */,
+				5513ECE52559AFA100A70EEB /* ViewControllerRu */,
+				55447CBF255AA56300576E51 /* ViewControllerBY */,
+				55CD5C2425597F1100D9F032 /* Model */,
+				55CD5C132559732B00D9F032 /* imageFlags */,
 				55CD5BFE25596EF100D9F032 /* AppDelegate.swift */,
 				55CD5C0025596EF100D9F032 /* SceneDelegate.swift */,
 				55CD5C0225596EF100D9F032 /* ViewController.swift */,
 				55CD5C0425596EF100D9F032 /* Main.storyboard */,
+				55E92F4C255C630700A47368 /* RateManager.swift */,
+				556035DE255A561C00807029 /* AboutViewController.swift */,
 				55CD5C0725596EF200D9F032 /* Assets.xcassets */,
 				55CD5C0925596EF200D9F032 /* LaunchScreen.storyboard */,
 				55CD5C0C25596EF200D9F032 /* Info.plist */,
 			);
 			path = AutoCode;
+			sourceTree = "<group>";
+		};
+		55CD5C132559732B00D9F032 /* imageFlags */ = {
+			isa = PBXGroup;
+			children = (
+				558B1FCE255B045B00AE6305 /* kazakhstan.png */,
+				55CD5C152559735700D9F032 /* belarus.png */,
+				55CD5C162559735700D9F032 /* russia.png */,
+			);
+			path = imageFlags;
+			sourceTree = "<group>";
+		};
+		55CD5C2425597F1100D9F032 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55CD5C2525598FE700D9F032 /* classAutoCode.swift */,
+				55CD5C282559914700D9F032 /* modelAutoCode.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +233,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CD5C0B25596EF200D9F032 /* LaunchScreen.storyboard in Resources */,
+				558B1FCF255B045B00AE6305 /* kazakhstan.png in Resources */,
+				55CD5C192559735700D9F032 /* russia.png in Resources */,
+				55CD5C182559735700D9F032 /* belarus.png in Resources */,
+				556035E3255A56FA00807029 /* 180x180.png in Resources */,
 				55CD5C0825596EF200D9F032 /* Assets.xcassets in Resources */,
 				55CD5C0625596EF100D9F032 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +249,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CD5C292559914700D9F032 /* modelAutoCode.swift in Sources */,
+				55CD5C1C2559771C00D9F032 /* TabBarViewController.swift in Sources */,
+				55CD5C1F2559777A00D9F032 /* RuListViewController.swift in Sources */,
+				55FA54D0255ABB0E00FD3D5F /* InfoByViewController.swift in Sources */,
+				55447CC6255AA86E00576E51 /* BYListViewController.swift in Sources */,
+				558B1FD8255B0A4700AE6305 /* KzListViewController.swift in Sources */,
+				55447CC2255AA72C00576E51 /* BYTabBarViewController.swift in Sources */,
 				55CD5C0325596EF100D9F032 /* ViewController.swift in Sources */,
+				55CD5C22255977C200D9F032 /* RuSearchViewController.swift in Sources */,
+				5575EC1625599B43005AA76F /* InfoRuViewController.swift in Sources */,
 				55CD5BFF25596EF100D9F032 /* AppDelegate.swift in Sources */,
+				55E92F4D255C630700A47368 /* RateManager.swift in Sources */,
+				5551B066255BBFB70023C5BC /* InfoKzViewController.swift in Sources */,
+				55CD5C2625598FE700D9F032 /* classAutoCode.swift in Sources */,
+				558B1FD5255B09D600AE6305 /* TabBarKzViewController.swift in Sources */,
+				556035DF255A561C00807029 /* AboutViewController.swift in Sources */,
 				55CD5C0125596EF100D9F032 /* SceneDelegate.swift in Sources */,
+				558B1FDC255B0A9500AE6305 /* KzSearchViewController.swift in Sources */,
+				55447CC9255AA8BC00576E51 /* BYSearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
