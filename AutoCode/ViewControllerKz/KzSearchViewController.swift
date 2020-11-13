@@ -7,7 +7,7 @@
 
 import UIKit
 
-class KzSearchViewController: UIViewController, UISearchTextFieldDelegate {
+class KzSearchViewController: UIViewController, UITextFieldDelegate {
     
     var modKz = ModelKzItems()
 
