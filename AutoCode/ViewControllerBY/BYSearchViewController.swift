@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BYSearchViewController: UIViewController {
+class BYSearchViewController: UIViewController, UITextFieldDelegate {
 
     var modBy = ModelByItems()
     
@@ -38,12 +38,18 @@ class BYSearchViewController: UIViewController {
         }
     }
     
+    //  Прячем клавиатуру с экрана
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     @IBOutlet weak var labelRegionByOutlet: UILabel!
     
     @IBOutlet weak var labelCodeByOutlet: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.editSearchByOutlet.delegate = self
 
     }
 

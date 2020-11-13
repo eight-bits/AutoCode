@@ -1,0 +1,189 @@
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "1wA-gQ-CGP"; */
+"1wA-gQ-CGP.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Moscow"; ObjectID = "388-x2-RrR"; */
+"388-x2-RrR.text" = "Москва";
+
+/* Class = "UILabel"; text = "9 413 446"; ObjectID = "4iZ-yv-f6S"; */
+"4iZ-yv-f6S.text" = "9 413 446";
+
+/* Class = "UITextField"; placeholder = "Enter code or region"; ObjectID = "5vP-CW-Zme"; */
+"5vP-CW-Zme.placeholder" = "Введите код или регион";
+
+/* Class = "UILabel"; text = "Kazakhstan"; ObjectID = "6iK-ba-0ni"; */
+"6iK-ba-0ni.text" = "Казахстан";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "7P1-E8-sGY"; */
+"7P1-E8-sGY.title" = "Поиск";
+
+/* Class = "UILabel"; text = "Population:"; ObjectID = "7Vu-RA-YQm"; */
+"7Vu-RA-YQm.text" = "Население:";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "CDf-SV-lfo"; */
+"CDf-SV-lfo.text" = "Title";
+
+/* Class = "UILabel"; text = "According to the census 2019"; ObjectID = "CQv-aD-qok"; */
+"CQv-aD-qok.text" = "По данным переписи на 2019";
+
+/* Class = "UILabel"; text = "Copyright © 2020 Andrey Kudryavtsev"; ObjectID = "HCd-gS-jyA"; */
+"HCd-gS-jyA.text" = "Copyright © 2020 Andrey Kudryavtsev";
+
+/* Class = "UILabel"; text = "Copyright 2020 Andrey Kudryavtsev. All rights reserved."; ObjectID = "HUL-Nz-bmO"; */
+"HUL-Nz-bmO.text" = "Copyright 2020 Andrey Kudryavtsev. All rights reserved.";
+
+/* Class = "UILabel"; text = "Russia"; ObjectID = "Hmi-fh-PY0"; */
+"Hmi-fh-PY0.text" = "Россия";
+
+/* Class = "UITabBarItem"; title = "Table"; ObjectID = "Ig9-2Z-5Yv"; */
+"Ig9-2Z-5Yv.title" = "Таблица";
+
+/* Class = "UILabel"; text = "As of January 1, 2020"; ObjectID = "J0G-A3-C2h"; */
+"J0G-A3-C2h.text" = "По данным на 1 января 2020";
+
+/* Class = "UILabel"; text = "UIKit"; ObjectID = "J1S-c7-hb6"; */
+"J1S-c7-hb6.text" = "UIKit";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "L5L-YB-n0n"; */
+"L5L-YB-n0n.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Region"; ObjectID = "LR9-Wu-EhA"; */
+"LR9-Wu-EhA.text" = "Регион";
+
+/* Class = "UILabel"; text = "146 748 590"; ObjectID = "Lsb-cr-PhZ"; */
+"Lsb-cr-PhZ.text" = "146 748 590";
+
+/* Class = "UILabel"; text = "Rosstat data as of January 1, 2020"; ObjectID = "MoO-I8-2Pv"; */
+"MoO-I8-2Pv.text" = "По данным Росстата на 1 января 2020";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "N3q-7n-Xzd"; */
+"N3q-7n-Xzd.text" = "Title";
+
+/* Class = "UILabel"; text = "Country:"; ObjectID = "NpS-bW-bRi"; */
+"NpS-bW-bRi.text" = "Страна:";
+
+/* Class = "UINavigationItem"; title = "Kazakhstan"; ObjectID = "OTB-IA-hgV"; */
+"OTB-IA-hgV.title" = "Казахстан";
+
+/* Class = "UILabel"; text = "Population:"; ObjectID = "Pdx-u9-TSW"; */
+"Pdx-u9-TSW.text" = "Население:";
+
+/* Class = "UINavigationItem"; title = "AutoCode"; ObjectID = "PfS-8y-7YQ"; */
+"PfS-8y-7YQ.title" = "AutoCode";
+
+/* Class = "UILabel"; text = "AutoCode 1.0.0"; ObjectID = "Q30-dS-bKj"; */
+"Q30-dS-bKj.text" = "AutoCode 1.0.0";
+
+/* Class = "UILabel"; text = "Swift 5"; ObjectID = "RI0-pI-KxO"; */
+"RI0-pI-KxO.text" = "Swift 5";
+
+/* Class = "UILabel"; text = "Xcode 12.2"; ObjectID = "URT-Kh-XhQ"; */
+"URT-Kh-XhQ.text" = "Xcode 12.2";
+
+/* Class = "UITabBarItem"; title = "Table"; ObjectID = "UUf-8p-dzF"; */
+"UUf-8p-dzF.title" = "Таблица";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "Ujt-jf-Pa9"; */
+"Ujt-jf-Pa9.title" = "Поиск";
+
+/* Class = "UILabel"; text = "Country:"; ObjectID = "Vo7-Wt-bVL"; */
+"Vo7-Wt-bVL.text" = "Страна:";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ZcW-qN-zzb"; */
+"ZcW-qN-zzb.text" = "Title";
+
+/* Class = "UILabel"; text = "Belarus"; ObjectID = "afS-fS-WVf"; */
+"afS-fS-WVf.text" = "Беларусь";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "cfR-UV-Zy5"; */
+"cfR-UV-Zy5.title" = "Поиск";
+
+/* Class = "UILabel"; text = "Population:"; ObjectID = "dUe-S9-WeJ"; */
+"dUe-S9-WeJ.text" = "Население:";
+
+/* Class = "UILabel"; text = "12 678 079"; ObjectID = "deD-Wq-tBR"; */
+"deD-Wq-tBR.text" = "12 678 079";
+
+/* Class = "UITextField"; placeholder = "Enter code or region"; ObjectID = "eI6-39-YkM"; */
+"eI6-39-YkM.placeholder" = "Введите код или регион";
+
+/* Class = "UILabel"; text = "Population:"; ObjectID = "fLj-dG-aNf"; */
+"fLj-dG-aNf.text" = "Население:";
+
+/* Class = "UILabel"; text = "Country:"; ObjectID = "fk0-PP-oMF"; */
+"fk0-PP-oMF.text" = "Страна:";
+
+/* Class = "UILabel"; text = "Region"; ObjectID = "gQC-i4-CwH"; */
+"gQC-i4-CwH.text" = "Регион";
+
+/* Class = "UILabel"; text = "Code"; ObjectID = "gsJ-S2-FIx"; */
+"gsJ-S2-FIx.text" = "Код";
+
+/* Class = "UILabel"; text = "Code"; ObjectID = "h1M-ad-Ctb"; */
+"h1M-ad-Ctb.text" = "Код";
+
+/* Class = "UILabel"; text = "Minsk"; ObjectID = "hGJ-HU-WVz"; */
+"hGJ-HU-WVz.text" = "Минск";
+
+/* Class = "UILabel"; text = "Nur-Sultan (Astana)"; ObjectID = "jDn-xX-fIg"; */
+"jDn-xX-fIg.text" = "Нур-Султан (Астана)";
+
+/* Class = "UILabel"; text = "Population:"; ObjectID = "kb6-Cy-vG3"; */
+"kb6-Cy-vG3.text" = "Население:";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "kgc-lt-dX6"; */
+"kgc-lt-dX6.normalTitle" = "Найти";
+
+/* Class = "UILabel"; text = "2 018 281"; ObjectID = "ksq-Nn-7wb"; */
+"ksq-Nn-7wb.text" = "2 018 281";
+
+/* Class = "UILabel"; text = "Capital:"; ObjectID = "lnG-iN-uZC"; */
+"lnG-iN-uZC.text" = "Столица:";
+
+/* Class = "UINavigationItem"; title = "Belarus"; ObjectID = "lnT-o4-IBd"; */
+"lnT-o4-IBd.title" = "Беларусь";
+
+/* Class = "UILabel"; text = "Region"; ObjectID = "oHE-nA-Si1"; */
+"oHE-nA-Si1.text" = "Регион";
+
+/* Class = "UILabel"; text = "18 632 169"; ObjectID = "qP0-eA-xHe"; */
+"qP0-eA-xHe.text" = "18 632 169";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "qg8-mL-qQE"; */
+"qg8-mL-qQE.normalTitle" = "Найти";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "r7D-j8-fgh"; */
+"r7D-j8-fgh.normalTitle" = "Найти";
+
+/* Class = "UITextField"; placeholder = "Enter code or region"; ObjectID = "rgi-Ah-xaK"; */
+"rgi-Ah-xaK.placeholder" = "Введите код или регион";
+
+/* Class = "UINavigationItem"; title = "Russian"; ObjectID = "teW-Ya-hR3"; */
+"teW-Ya-hR3.title" = "Россия";
+
+/* Class = "UILabel"; text = "Population:"; ObjectID = "toY-Lk-uX3"; */
+"toY-Lk-uX3.text" = "Население:";
+
+/* Class = "UILabel"; text = "Send error messages to eightkbit@gmail.com"; ObjectID = "ucW-z3-IzD"; */
+"ucW-z3-IzD.text" = "Send error messages to eightkbit@gmail.com";
+
+/* Class = "UITabBarItem"; title = "Table"; ObjectID = "ukx-0G-EPL"; */
+"ukx-0G-EPL.title" = "Таблица";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "umf-xy-fKU"; */
+"umf-xy-fKU.title" = "Назад";
+
+/* Class = "UILabel"; text = "1 136 156"; ObjectID = "vO6-9o-Sj6"; */
+"vO6-9o-Sj6.text" = "1 136 156";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "y0w-DQ-bof"; */
+"y0w-DQ-bof.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Capital:"; ObjectID = "yhb-Ku-osS"; */
+"yhb-Ku-osS.text" = "Столица:";
+
+/* Class = "UILabel"; text = "Code"; ObjectID = "zg3-n7-MG8"; */
+"zg3-n7-MG8.text" = "Код";
+
+/* Class = "UILabel"; text = "Capital:"; ObjectID = "zsB-yY-irV"; */
+"zsB-yY-irV.text" = "Столица:";

@@ -42,10 +42,9 @@ class RuSearchViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
-    // Прячем клавиатуру
-    func textFieldShouldReturn(editRuOutlet: UITextField!) -> Bool {
+    //  Прячем клавиатуру с экрана
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
-        return true
     }
     
     override func viewDidLoad() {

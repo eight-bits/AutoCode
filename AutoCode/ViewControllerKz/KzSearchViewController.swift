@@ -7,7 +7,7 @@
 
 import UIKit
 
-class KzSearchViewController: UIViewController {
+class KzSearchViewController: UIViewController, UISearchTextFieldDelegate {
     
     var modKz = ModelKzItems()
 
@@ -33,6 +33,7 @@ class KzSearchViewController: UIViewController {
             }
         }
         
+        
         if !flagSearch {
             let message = "No item"
             let alert = UIAlertController(title: "AutoCode", message: message, preferredStyle: .alert)
@@ -42,8 +43,14 @@ class KzSearchViewController: UIViewController {
         }
     }
     
+    //  Прячем клавиатуру с экрана
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.editSearchKzOutlet.delegate = self
 
     }
 

@@ -47,6 +47,7 @@
 		558B1FD4255B09D600AE6305 /* TabBarKzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarKzViewController.swift; sourceTree = "<group>"; };
 		558B1FD7255B0A4700AE6305 /* KzListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KzListViewController.swift; sourceTree = "<group>"; };
 		558B1FDB255B0A9500AE6305 /* KzSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KzSearchViewController.swift; sourceTree = "<group>"; };
+		55BCF577255EA0D10053F8EE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		55CD5BFB25596EF100D9F032 /* AutoCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CD5BFE25596EF100D9F032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CD5C0025596EF100D9F032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -216,6 +217,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 55CD5BF225596EF000D9F032;
 			productRefGroup = 55CD5BFC25596EF100D9F032 /* Products */;
@@ -278,6 +280,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				55CD5C0525596EF100D9F032 /* Base */,
+				55BCF577255EA0D10053F8EE /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -358,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
