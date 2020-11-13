@@ -15,26 +15,28 @@ class BYSearchViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func buttonSearchAction(_ sender: UIButton) {
         
-        let textSearch = editSearchByOutlet.text
-        var flagSearch = false
-        
-        for i in 0..<modBy.itemBY.count {
-            let item = modBy.itemBY[i]
-            if (item.codeRegion.hasPrefix(textSearch!)) || (item.codeRegion.hasSuffix(textSearch!)) || (item.nameRegion.lowercased().contains(textSearch!)) {
-                labelRegionByOutlet.text = item.nameRegion
-                labelCodeByOutlet.text = item.codeRegion
-                if !flagSearch {
-                    flagSearch = true
+        if editSearchByOutlet.text != "" {
+            let textSearch = editSearchByOutlet.text
+            var flagSearch = false
+            
+            for i in 0..<modBy.itemBY.count {
+                let item = modBy.itemBY[i]
+                if (item.codeRegion.hasPrefix(textSearch!)) || (item.codeRegion.hasSuffix(textSearch!)) || (item.nameRegion.lowercased().contains(textSearch!)) {
+                    labelRegionByOutlet.text = item.nameRegion
+                    labelCodeByOutlet.text = item.codeRegion
+                    if !flagSearch {
+                        flagSearch = true
+                    }
                 }
             }
-        }
-        
-        if !flagSearch {
-            let message = "No item"
-            let alert = UIAlertController(title: "AutoCode", message: message, preferredStyle: .alert)
-            let action = UIAlertAction(title: "Ok", style: .default, handler: nil)
-            alert.addAction(action)
-            present(alert, animated: true, completion: nil)
+            
+            if !flagSearch {
+                let message = "No item"
+                let alert = UIAlertController(title: "AutoCode", message: message, preferredStyle: .alert)
+                let action = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                alert.addAction(action)
+                present(alert, animated: true, completion: nil)
+            }
         }
     }
     

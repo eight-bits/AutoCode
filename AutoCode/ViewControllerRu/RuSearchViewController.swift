@@ -19,26 +19,28 @@ class RuSearchViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func buttonSearchRuAction(_ sender: UIButton) {
         
-        let textSearch = editRuOutlet.text
-        var flagSearch = false
-        
-        for i in 0..<modRu.itemRu.count {
-            let item = modRu.itemRu[i]
-            if (item.codeRegion.hasPrefix(textSearch!)) || (item.codeRegion.hasSuffix(textSearch!)) || (item.nameRegion.lowercased().contains(textSearch!)) {
-                labelRegionRuOutlet.text = item.nameRegion
-                labelCodeRuOutlet.text = item.codeRegion
-                if !flagSearch {
-                    flagSearch = true
+        if editRuOutlet.text != "" {
+            let textSearch = editRuOutlet.text
+            var flagSearch = false
+            
+            for i in 0..<modRu.itemRu.count {
+                let item = modRu.itemRu[i]
+                if (item.codeRegion.hasPrefix(textSearch!)) || (item.codeRegion.hasSuffix(textSearch!)) || (item.nameRegion.lowercased().contains(textSearch!)) {
+                    labelRegionRuOutlet.text = item.nameRegion
+                    labelCodeRuOutlet.text = item.codeRegion
+                    if !flagSearch {
+                        flagSearch = true
+                    }
                 }
             }
-        }
-        
-        if !flagSearch {
-            let message = "No item"
-            let alert = UIAlertController(title: "AutoCode", message: message, preferredStyle: .alert)
-            let action = UIAlertAction(title: "Ok", style: .default, handler: nil)
-            alert.addAction(action)
-            present(alert, animated: true, completion: nil)
+            
+            if !flagSearch {
+                let message = "No item"
+                let alert = UIAlertController(title: "AutoCode", message: message, preferredStyle: .alert)
+                let action = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                alert.addAction(action)
+                present(alert, animated: true, completion: nil)
+            }
         }
     }
     
