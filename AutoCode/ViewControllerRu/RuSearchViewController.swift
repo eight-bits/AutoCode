@@ -25,7 +25,7 @@ class RuSearchViewController: UIViewController, UITextFieldDelegate {
             
             for i in 0..<modRu.itemRu.count {
                 let item = modRu.itemRu[i]
-                if (item.codeRegion.hasPrefix(textSearch!)) || (item.codeRegion.hasSuffix(textSearch!)) || (item.nameRegion.lowercased().contains(textSearch!)) {
+                if (item.codeRegion.contains(textSearch!)) || (item.nameRegion.lowercased().contains(textSearch!)) {
                     labelRegionRuOutlet.text = item.nameRegion
                     labelCodeRuOutlet.text = item.codeRegion
                     if !flagSearch {
