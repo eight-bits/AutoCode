@@ -14,14 +14,14 @@ class RateManager {
     
     class func incrementCount() {
         let count = UserDefaults.standard.integer(forKey: "run_count")
-        if count < 11 {
+        if count < 6 {
             UserDefaults.standard.set(count + 1, forKey: "run_count")
         }
     }
     
     class func showRatesController() {
         let count = UserDefaults.standard.integer(forKey: "run_count")
-        if count == 10 {
+        if count == 5 {
             if let scene = UIApplication.shared.currentScene {
                 SKStoreReviewController.requestReview(in: scene)
             }

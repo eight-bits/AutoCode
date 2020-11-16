@@ -1193,7 +1193,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xcode 12.2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URT-Kh-XhQ">
                                 <rect key="frame" x="166.5" y="307" width="81" height="18"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="81" id="0u2-Km-01y"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="81" id="0u2-Km-01y"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -1209,7 +1209,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AutoCode 1.0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q30-dS-bKj">
                                 <rect key="frame" x="152.5" y="255" width="109" height="18"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="109" id="P2E-gc-LAt"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="109" id="P2E-gc-LAt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -1218,7 +1218,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RI0-pI-KxO">
                                 <rect key="frame" x="180.5" y="333" width="53" height="18"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="53" id="Yp6-Zz-iKK"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="53" id="Yp6-Zz-iKK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -1227,7 +1227,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIKit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1S-c7-hb6">
                                 <rect key="frame" x="188.5" y="359" width="37" height="18"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="37" id="leZ-Ju-v2a"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="37" id="leZ-Ju-v2a"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -1236,7 +1236,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2020 Andrey Kudryavtsev" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCd-gS-jyA">
                                 <rect key="frame" x="71" y="281" width="272" height="18"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="272" id="jBQ-qS-AHX"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="272" id="jBQ-qS-AHX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -1245,7 +1245,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Send error messages to eightkbit@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucW-z3-IzD">
                                 <rect key="frame" x="49" y="410" width="316" height="18"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="316" id="kXr-Dl-T7d"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="316" id="kXr-Dl-T7d"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
